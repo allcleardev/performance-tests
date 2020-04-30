@@ -1,0 +1,115 @@
+[{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/map",
+    "params":{
+        "headers": {
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-User": "?1",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/shared.css",
+    "params":{
+        "headers": {
+            "Accept": "text/css,*/*;q=0.1"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+    "params":{
+        "headers": {
+            "Accept": "text/css,*/*;q=0.1"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+    "params":{
+        "headers": {
+            "Accept": "text/css,*/*;q=0.1"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
+    "params":{
+        "headers": {
+            "Origin": "https://app-staging.allclear.app",
+            "Accept": "text/css,*/*;q=0.1"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/static/css/main.0bc748e3.chunk.css",
+    "params":{
+        "headers": {
+            "Accept": "text/css,*/*;q=0.1"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/static/js/2.bd2842d5.chunk.js",
+    "params":{
+        "headers": {
+            "Accept": "*/*"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/static/js/main.82971d82.chunk.js",
+    "params":{
+        "headers": {
+            "Accept": "*/*"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/static/media/logo-blue.bb0fd286.svg",
+    "params":{
+        "headers": {
+            "Accept": "image/webp,image/apng,image/*,*/*;q=0.8"
+        }
+    }
+},{
+    "method": "OPTIONS",
+    "url": "https://api-staging.allclear.app/facilities/search",
+    "params":{
+        "headers": {
+            "Access-Control-Request-Method": "POST",
+            "Origin": "https://app-staging.allclear.app",
+            "Access-Control-Request-Headers": "content-type,x-allclear-sessionid",
+            "Accept": "*/*"
+        }
+    }
+},{
+    "method": "POST",
+    "url": "https://api-staging.allclear.app/facilities/search",
+    "body": "{\"from\":{\"latitude\":39.7060622,\"longitude\":-74.2531465,\"miles\":100}}",
+    "params":{
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Origin": "https://app-staging.allclear.app",
+            "X-AllClear-SessionID": "id",
+            "Content-Type": "application/json;charset=UTF-8"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/favicon.ico",
+    "params":{
+        "headers": {
+            "Accept": "image/webp,image/apng,image/*,*/*;q=0.8"
+        }
+    }
+},{
+    "method": "GET",
+    "url": "https://app-staging.allclear.app/android-chrome-192x192.png",
+    "params":{
+        "headers": {
+            "Accept": "image/webp,image/apng,image/*,*/*;q=0.8"
+        }
+    }
+}]

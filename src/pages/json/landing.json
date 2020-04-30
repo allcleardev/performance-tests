@@ -18,32 +18,7 @@
     }
 },{
     "method": "GET",
-    "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700&display=swap",
-    "params":{
-        "headers": {
-            "Accept": "text/css,*/*;q=0.1"
-        }
-    }
-},{
-    "method": "GET",
     "url": "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css",
-    "params":{
-        "headers": {
-            "Accept": "text/css,*/*;q=0.1"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css",
-    "params":{
-        "headers": {
-            "Origin": "https://app-staging.allclear.app",
-            "Accept": "text/css,*/*;q=0.1"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://unpkg.com/leaflet-geosearch@latest/assets/css/leaflet.css",
     "params":{
         "headers": {
             "Accept": "text/css,*/*;q=0.1"
@@ -65,30 +40,6 @@
             "Origin": "https://app-staging.allclear.app",
             "Accept": "text/css,*/*;q=0.1"
           }
-    }
-},{
-    "method": "GET",
-    "url": "https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.71.0/dist/L.Control.Locate.min.css",
-    "params":{
-        "headers": {
-            "Accept": "text/css,*/*;q=0.1"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.71.0/dist/L.Control.Locate.min.js",
-    "params":{
-        "headers": {
-            "Accept": "text/css,*/*;q=0.1"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyDj68jf5D8CcABjdOkgGqxNES89IK6l4Hk&libraries=places",
-    "params":{
-        "headers": {
-            "Accept": "*/*"
-        }
     }
 },{
     "method": "GET",
@@ -116,45 +67,10 @@
     }
 },{
     "method": "GET",
-    "url": "https://cdn.lr-ingest.io/logger.min.js",
-    "params":{
-        "headers": {
-            "Accept": "*/*"
-        }
-    }
-},{
-    "method": "GET",
     "url": "https://app-staging.allclear.app/static/media/logo-white.11646408.svg",
     "params":{
         "headers": {
             "Accept": "image/webp,image/apng,image/*,*/*;q=0.8"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://app-staging.allclear.app/static/media/SF-Pro-Text-Medium.b21791d4.otf",
-    "params":{
-        "headers": {
-            "Origin": "https://app-staging.allclear.app",
-            "Accept": "*/*"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://app-staging.allclear.app/static/media/SF-Pro-Text-Bold.3abde616.otf",
-    "params":{
-        "headers": {
-            "Origin": "https://app-staging.allclear.app",
-            "Accept": "*/*"
-        }
-    }
-},{
-    "method": "GET",
-    "url": "https://app-staging.allclear.app/static/media/SF-Pro-Text-Regular.f38dce0a.otf",
-    "params":{
-        "headers": {
-            "Origin": "https://app-staging.allclear.app",
-            "Accept": "*/*"
         }
     }
 },{
