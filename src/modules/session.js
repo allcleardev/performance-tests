@@ -1,8 +1,7 @@
-export default function(data) {
-    var config = JSON.parse(open('../config.json'));
+export default function(data, id) {
     for(var i in data) {
-        if(data[i].params.headers["X-AllClear-SessionID"] !== undefined) {
-            data[i].params.headers["X-AllClear-SessionID"] = config.SessionID;
+        if(data[i].params.headers['X-AllClear-SessionID'] !== undefined) {
+            data[i].params.headers['X-AllClear-SessionID'] = id;
         }
     }
     return data;

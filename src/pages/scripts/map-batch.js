@@ -1,8 +1,8 @@
 import {group} from "k6";
-import batch from "../modules/batch.js";
-import session from "../modules/session.js";
+import batch from "../../modules/batch.js";
+import session from "../../modules/session.js";
 
-const mapPage = session(JSON.parse(open("../json/map2.json")));
+const mapPage = session(JSON.parse(open("../json/map.json")));
 
 export let options = { 
     vus: 100,
