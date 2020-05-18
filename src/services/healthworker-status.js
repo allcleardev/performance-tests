@@ -15,12 +15,12 @@ export let options = {
     //The test will abort if any of these fail which will let us know there has been a performance degradation
     thresholds: {
         "iteration_duration": [{
-            threshold: "max<500",
+            threshold: "max<450",
             abortOnFail: true,
             delayAbortEval: "0s"
         }],
         "iteration_duration": [{
-            threshold: "p(90)<200",
+            threshold: "p(90)<50",
             abortOnFail: true,
             delayAbortEval: "0s"
         }],
@@ -33,19 +33,15 @@ export let options = {
 };
 
 export default function() {
-    let url = "https://api-staging.allclear.app/facilities/search";
-
-    let body = '{"from":{"latitude":39.6999,"longitude":-74.2633,"miles":100}}';
+    let url = "https://api-staging.allclear.app/types/healthWorkerStatuses";
 
     let params = {
         headers: {
-          "Accept": "application/json, text/plain, */*",
-          "Origin": "https://app-staging.allclear.app",
-          "Content-Type": "application/json;charset=UTF-8"
+            "Accept": "application/json; charset=UTF-8",
         }
     };
     
-    let response = http.post(url, body, params); 
+    let response = http.get(url, null, params); 
     //Printing error code and running checks
     check(response, successfulRequests);
 }

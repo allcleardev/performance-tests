@@ -1,12 +1,12 @@
 import {group} from "k6";
-import batch from "../modules/batch.js";
+import batch from "../../modules/batch.js";
 
-const landingPage = JSON.parse(open("../json/landing2.json"));
+const landingPage = JSON.parse(open("../json/landing.json"));
 
 export let options = { 
-    vus: 100,
-    //duration: "60s",
-    iterations:600
+    vus: 1,
+    //duration: "10s",
+    iterations:1
 };
 
 export default function() {
